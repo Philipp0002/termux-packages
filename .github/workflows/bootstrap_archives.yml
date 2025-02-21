@@ -22,7 +22,6 @@ jobs:
           - arm
           - aarch64
           - x86_64
-    if: github.repository == 'termux-play-store/termux-packages'
     steps:
       - name: Git clone
         uses: actions/checkout@v4
